@@ -1,0 +1,27 @@
+{
+  "name": "webdriverio-typescript-starter",
+  "version": "1.0.0",
+  "description": "Starter project using Webdriverio & TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danielle Boothe 2018",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint-config-airbnb": "^5.11.1",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-junit-reporter": "^0.4.4",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chancejs": "0.0.8",
+    "mssql": "^4.3.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  }
+}
